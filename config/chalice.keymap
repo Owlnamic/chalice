@@ -12,7 +12,7 @@
 
 / {
         chosen { zmk,kscan = &kscan0; zmk,matrix_transform = &splitbs_transform; };
-        keymap {
+        keymap { 
                 compatible = "zmk,keymap";
 
                 default_layer {
